@@ -9,4 +9,17 @@
     align-items: center;
     letter-spacing: -1px;
     color: #fff;
+
+    &--secondary {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        /* or 100% */
+        display: flex;
+        align-items: center;
+        letter-spacing: -1.5px;
+        color: #000;
+    }
   }

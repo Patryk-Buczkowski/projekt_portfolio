@@ -1,9 +1,14 @@
 .header {
-  background-color: aquamarine;
+  background-color: black;
+  background-image: url(../../source/header-background.jpeg);
+  background-position: bottom, left;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding: 0 80px 20px;
   box-sizing: border-box;
+  color: white;
 }

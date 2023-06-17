@@ -1,0 +1,12 @@
+@import "./utils/reset";
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -1px;
+}

@@ -1,17 +1,40 @@
 .person {
     &__photo {
-      
+      display: block;
+      margin: 0 auto;      
     }
 
     &__name {
-
+      font-family: "Roboto", sans-serif;
+      font-size: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      /* 125% */
+      text-align: center;
+      color: #0075ff;
     }
 
     &__role {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 27px;
+      /* 193% */
+      text-align: center;
+      color: #9fadc2;
       
     }
 
     &__description {
-        
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 27px;
+      text-align: center;
+      color: #3e3e3e   ;
+
     }
 }

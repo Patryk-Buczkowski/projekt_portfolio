@@ -1,0 +1,20 @@
+.adress {
+    &__label {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 27px;
+      color: #9fadc2;
+    }
+
+    &__content {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        /* 169% */
+        color: #3e3e3e;
+    }
+}

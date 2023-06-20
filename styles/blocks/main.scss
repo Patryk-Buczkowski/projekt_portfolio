@@ -8,7 +8,13 @@
     /* or 169% */
     color: #3e3e3e;
 
+    &__title {
+      margin-bottom: 48px;
+    }
+
     &__paragraph {
+      margin-bottom: 40px;
+
       &--highlight {
         font-family: "Roboto", sans-serif;
         font-style: normal;
@@ -16,10 +22,12 @@
         font-size: 24px;
         line-height: 30px;
         color: #0075ff;
+        margin-bottom: 16px;
       }
-      
+
       &--bold {
             font-weight: 700;
+            margin-bottom: 0;
         }
     }
 }

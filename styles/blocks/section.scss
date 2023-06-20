@@ -1,0 +1,15 @@
+.section {
+    padding-top: 64px;
+
+    &__title {
+      margin-bottom: 32px;
+    }
+
+    &__article {
+        margin-bottom: 32px;
+    }
+
+    &__person {
+        margin-bottom: 48px;
+    }
+}

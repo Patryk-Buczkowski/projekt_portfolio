@@ -1,3 +1,5 @@
+@use "../utils/mixins.scss" as *;
+
 .footer {
   height: 206px;
   background-image: url(../../source/footer-background.jpg);  
@@ -10,4 +12,8 @@
   align-items: center;
   padding-bottom: 30px;
   // box-sizing: border-box;
+
+  @include for-desktop() {
+    height: 359px;
+  }
 }

@@ -1,0 +1,11 @@
+@use "../utils/mixins.scss" as *;
+
+.logo {
+  &__image {
+    height: 46px;
+
+    @include for-desktop() {
+        height: 76px;
+    }
+  }
+}

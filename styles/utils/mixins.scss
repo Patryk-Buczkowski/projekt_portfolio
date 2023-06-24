@@ -4,7 +4,7 @@
     }
   }
 
-@mixin grid () {
+@mixin grid() {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(2, 130px);

@@ -1,3 +1,5 @@
+@use "../utils/mixins.scss" as *;
+
 .title {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -7,6 +9,12 @@
     /* or 87% */     
     letter-spacing: -1px;
     color: #fff;
+
+    @include for-desktop() {
+      font-size: 80px;
+      line-height: 80px;
+      letter-spacing: -1.5px;
+    }
 
     &--decorated::before {
       content: '';
@@ -26,6 +34,13 @@
         /* or 100% */       
         letter-spacing: -1.5px;
         color: #000;
+
+        @include for-desktop() {
+           font-weight: 700;
+           font-size: 48px;
+           line-height: 48px;
+           letter-spacing: -1.5px;
+        }
     }
 
     &--section {
@@ -46,6 +61,13 @@
         width: 24px;
         height: 24px;
         background-image: url(../../source/crown.svg);
+      }
+
+      @include for-desktop() {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -1.5px;
       }
     }
 
